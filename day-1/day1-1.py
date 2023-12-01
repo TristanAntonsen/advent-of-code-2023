@@ -2,7 +2,7 @@ import re
 import sys
 
 if len(sys.argv) != 2:
-    print("Enter a file path")
+    print("Enter a file path (usage: python <script> <input_path>)")
     quit()
 else:
     path = sys.argv[1]
